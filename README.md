@@ -22,3 +22,5 @@ The project consists of 3 components
 5. In another command line tab, `cd soccer-epl-ui` and run `npm start`
 6. you can now access the Dashboard in url: `http://locahost:3000`
 
+# License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT
