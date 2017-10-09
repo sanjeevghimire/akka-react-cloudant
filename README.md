@@ -2,7 +2,7 @@
 A Soccer Dashboard created by scraping EPL website using Akka backend and ReactJS frontend and IBM Cloudant for object storage
 
 # Architecture
-![Architecture](./assets/soccer epl architecture.jpg?raw=true "Architecture")
+![Architecture](./assets/soccer%20epl%20architecture.jpg?raw=true "Architecture")
 
 
 # Components 
