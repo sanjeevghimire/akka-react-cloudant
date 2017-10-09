@@ -1,11 +1,8 @@
 # akka-react-cloudant
 A Soccer Dashboard created by scraping EPL website using Akka backend and ReactJS frontend and IBM Cloudant for object storage
 
-# Output
-![Dashboard](./assets/dashboard.png?raw=true "Dashboard")
-![Team Standing](./assets/teamstanding.png?raw=true "Team Standing")
-![Results](./assets/results.png?raw=true "Results")
-![Fixtures](./assets/fixtures.png?raw=true "Fixtures")
+# Architecture
+![Architecture](./assets/soccer epl architecture.jpg?raw=true "Architecture")
 
 
 # Components 
@@ -21,6 +18,13 @@ The project consists of 3 components
 4. In another commandline window or tab, Run `sbt` followed by commands `compile` and `run` . Make sure you choose `SoccerMainController.scala` as running class
 5. In another command line tab, `cd soccer-epl-ui` and run `npm start`
 6. you can now access the Dashboard in url: `http://locahost:3000`
+
+# Output
+![Dashboard](./assets/dashboard.png?raw=true "Dashboard")
+![Team Standing](./assets/teamstanding.png?raw=true "Team Standing")
+![Results](./assets/results.png?raw=true "Results")
+![Fixtures](./assets/fixtures.png?raw=true "Fixtures")
+
 
 # License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
