@@ -6,6 +6,11 @@ version := "1.0"
 
 scalaVersion := "2.12.2"
 
+// set the main class for packaging the main jar
+mainClass in assembly := Some("com.epl.akka.SoccerMainController")
+
+assemblyJarName in assembly  := "akka-epl.jar"
+
 val akkaVersion = "2.5.4"
 val akkaHttpVersion = "10.0.10"
 
@@ -24,10 +29,6 @@ libraryDependencies ++= Seq(
 
   "com.github.detro.ghostdriver" % "phantomjsdriver" % "1.0.1",
   "org.seleniumhq.selenium" % "selenium-java" % "3.5.3"
-
-
-
-
 
 )
 
